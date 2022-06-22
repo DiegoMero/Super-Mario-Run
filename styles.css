@@ -1,178 +1,238 @@
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .navbar {
-    width: 100%;
-    display: flex;
-    height: 75px;
-    justify-content: space-between;
-    background-color: white;
+  width: 100%;
+  display: flex;
+  height: 75px;
+  justify-content: space-between;
+  background-color: white;
 }
 
 .logo-placeholder {
-    padding: 12px;
+  padding: 12px;
 }
 .my-logo {
-    content: url(./images/SuperMarioRunLogo.png);
-    height: 50px;
+  content: url(./images/SuperMarioRunLogo.png);
+  height: 50px;
 }
 
 .menu-icon-placeholder {
-    display: flex;
-    align-items: center;
-    padding: 15px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
 }
 .menu-button {
-    content: url(./images/menuIcon.png);
-    width: 25px;
-    height: 25px;
+  content: url(./images/menuIcon.png);
+  width: 25px;
+  height: 25px;
 }
 
 #introduction {
-    background: url(./images/BackgroundImage.jpg);
-    background-size: contain;
-    width: 100%;
-    height: 500px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  background: url(./images/BackgroundImage.jpg);
+  background-size: contain;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .mini-title {
-    font-family: 'Lato', sans-serif;
-    font-size: 18px;
-    color: #ec5242;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 10px;
-    padding-top: 15px;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  color: #ec5242;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 10px;
+  padding-top: 15px;
 }
 
 .title {
-    font-family: 'COCOGOOSE', sans-serif;
-    font-weight: 400;
-    font-size: 37px;
-    color: #ec5242;
-    margin-top: 0;
-    padding-top: 0;
-    margin-left: 10px;
-    margin-bottom: 10px;
+  font-family: 'COCOGOOSE', sans-serif;
+  font-weight: 400;
+  font-size: 37px;
+  color: #ec5242;
+  margin-top: 0;
+  padding-top: 0;
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
 
 .event-description {
-    font-family: 'Lato', sans-serif;
-    line-height: 25px;
-    background-color: whitesmoke;
-    color: #272a31;
-    padding: 15px;
-    margin: 10px;
-    border: #fff solid;
+  font-family: 'Lato', sans-serif;
+  line-height: 25px;
+  background-color: whitesmoke;
+  color: #272a31;
+  padding: 15px;
+  margin: 10px;
+  border: #fff solid;
 }
 
 .event-date {
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    color: #272a31;
-    margin-left: 10px;
-    margin-bottom: 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #272a31;
+  margin-left: 10px;
+  margin-bottom: 0;
 }
 
 .event-place {
-    font-family: 'Lato', sans-serif;
-    margin-left: 10px;
-    color: #272a31;
-    margin-top: 3px;
+  font-family: 'Lato', sans-serif;
+  margin-left: 10px;
+  color: #272a31;
+  margin-top: 3px;
 }
 
 #main-prgram {
-    width: 100%;
-    height: auto;
-    background: url(./images/patternBackground.png);
-    background-color: #272a31;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap:15px;
+  width: 100%;
+  height: auto;
+  background: url(./images/patternBackground.png);
+  background-color: #272a31;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:15px;
 }
 
 .divisor {
-    border: 1px solid #ec5242;
-    width: 30px;
+  border: 1px solid #ec5242;
+  width: 30px;
 }
 
 .activities {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    gap:15px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap:15px;
 }
 
 .activity {
-    display: flex;
-    width: 94%; 
-    height: 100px;
-    background: rgb(211, 211, 211, 0.1);
-    padding: 10px;
-    gap: 25px;
-    align-items: center;
+  display: flex;
+  width: 94%; 
+  height: 100px;
+  background: rgb(211, 211, 211, 0.1);
+  padding: 10px;
+  gap: 25px;
+  align-items: center;
 }
 
 .activity-icon1 {
-    content: url(./images/PowerUpsIcon.png);
-    width: 30%;
-    height: 70%;
+  content: url(./images/PowerUpsIcon.png);
+  width: 30%;
+  height: 70%;
 }
 
 .activity-icon2 {
-    content: url(./images/BlockIcon.png);
-    width: 30%;
-    height: 70%;
+  content: url(./images/BlockIcon.png);
+  width: 30%;
+  height: 70%;
 }
 
 .activity-icon3 {
-    content: url(./images/EnemyIcon.png);
-    width: 30%;
-    height: 70%;
+  content: url(./images/EnemyIcon.png);
+  width: 30%;
+  height: 70%;
 }
 
 .activity-icon4 {
-    content: url(./images/LevelsIcon.png);
-    width: 30%;
-    height: 70%;
+  content: url(./images/LevelsIcon.png);
+  width: 30%;
+  height: 70%;
 }
 
 .activity-icon5 {
-    content: url(./images/BowserIcon.png);
-    width: 30%;
-    height: 70%;
+  content: url(./images/BowserIcon.png);
+  width: 30%;
+  height: 70%;
 }
 
 .program-tittle {
-    color: #d3d3d3;
-    margin-bottom: 5px;
-    font-family: 'Lato', sans-serif;
+  color: #d3d3d3;
+  margin-bottom: 5px;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2em;
 }
 
 .activity-title {
-    color: #ec5242;
-    font-family: 'Lato', sans-serif;
+  color: #ec5242;
+  font-family: 'Lato', sans-serif;
 }
 
 .activity-description {
-    color: #d3d3d3;
-    font-family: 'Lato', sans-serif;
-    font-size: 14px;
-    line-height: 20px;
+  color: #d3d3d3;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  line-height: 20px;
 }
 
 .join-button {
-    color:white;
-    font-family: 'Lato', sans-serif;
-    background-color: #ec5242;
-    border-style: none;
-    width: 300px;
-    height: 70px;
-    margin-bottom: 35px;
+  color:white;
+  font-family: 'Lato', sans-serif;
+  background-color: #ec5242;
+  border-style: none;
+  width: 300px;
+  height: 70px;
+  margin-bottom: 35px;
 }
+
+.characters {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.character-title {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.character-mini-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding-top: 35px;
+}
+
+.character-sub-container {
+  display: flex;
+  width: 85%;
+  align-items: flex-start;
+}
+
+.character-pic {
+  width: 30%;
+  height: 30%;
+}
+
+.character-name {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.4em;
+  margin: 0;
+}
+
+.character-occupation {
+  font-family: 'Lato', sans-serif;
+  color: #ec5242;
+  margin-top: 0;
+  font-style: italic;
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+
+.divisor2 {
+  border: 1px solid #d3d3d3;
+  width: 15px;
+}
+
+.character-description {
+  font-family: 'Lato', sans-serif;
+  color: #272a31;
+  margin-top: 12px;
+}
+
+
