@@ -149,3 +149,10 @@ const mainButton = document.createElement('a');
 mainButton.className = 'main-button';
 mainButton.innerText = 'MARIO RUN 2022';
 desktopNavbar.appendChild(mainButton);
+
+const programSection = document.getElementById('main-program');
+
+const wholeProgram = document.createElement('a');
+wholeProgram.className = 'see-program-text';
+wholeProgram.innerHTML = 'SEE THE WHOLE PROGRAM';
+programSection.appendChild(wholeProgram);

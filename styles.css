@@ -87,7 +87,7 @@ body {
   margin-top: 3px;
 }
 
-#main-prgram {
+#main-program {
   width: 100%;
   height: auto;
   background: url(./images/patternBackground.png);
@@ -307,6 +307,10 @@ body {
   display: none;
 }
 
+.see-program-text {
+  display: none;
+}
+
 @media only screen and (min-width: 768px) {
   nav {
     display: flex;
@@ -386,6 +390,7 @@ body {
   #introduction {
     padding-left: 15%;
     padding-top: 5%;
+    padding-bottom: 5%;
   }
 
   .mini-title {
@@ -408,4 +413,58 @@ body {
     font-size: 30px;
     font-weight: bolder;
   }
+
+  #main-prgram {
+    padding-top: 5%;
+    height: auto;
+    padding-bottom: 10%;
+  }
+
+  .program-tittle {
+    margin-top: 75px;
+    font-size: 25px;
+  }
+
+  .activities {
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+    margin-right: 15%;
+    gap: 5px;
+  }
+
+  .activity {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    gap: 0;
+    border: 2px solid transparent;
+  }
+
+  .activity:hover {
+    border: 2px solid white;
+  }
+
+  .activity-title {
+    flex-basis: 10%;
+  }
+  .activity-description {
+    text-align: center;
+    margin-top: 0;
+  }
+  .join-button {
+    display: none;
+  }
+
+  .see-program-text {
+    display: block;
+    text-decoration: underline;
+    font-family: 'Lato', sans-serif;
+    color:#d3d3d3;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-bottom: 75px;
+    cursor: pointer;
+  }
+
 }
