@@ -33,7 +33,7 @@ body {
 #introduction {
   background: url(./images/BackgroundImage.jpg);
   background-size: contain;
-  width: 100%;
+  width: auto;
   height: 500px;
   display: flex;
   flex-direction: column;
@@ -63,6 +63,7 @@ body {
 
 .event-description {
   font-family: 'Lato', sans-serif;
+  width: auto;
   line-height: 25px;
   background-color: whitesmoke;
   color: #272a31;
@@ -72,7 +73,7 @@ body {
 }
 
 .event-date {
-  font-family: 'Lato', sans-serif;
+  font-family: 'COCOGOOSE', sans-serif;
   font-weight: 300;
   color: #272a31;
   margin-left: 10px;
@@ -186,6 +187,7 @@ body {
   width: 300px;
   height: 70px;
   margin-bottom: 35px;
+  font-size: 18px;
 }
 
 .characters {
@@ -366,7 +368,7 @@ body {
     display: flex;
     margin-right: 15%;
     box-sizing: border-box;
-    border: 2px solid #ec5242;
+    border: 5px solid #ec5242;
     padding: 10px;
     color:#ec5242;
     font-family: 'Lato', sans-serif;
@@ -379,6 +381,31 @@ body {
 
   .logo-placeholder {
     padding-left: 15%;
+  }
 
+  #introduction {
+    padding-left: 15%;
+    padding-top: 5%;
+  }
+
+  .mini-title {
+    font-size: 35px;
+    font-weight: 100;
+  }
+
+  .title {
+    font-size: 55px;
+    max-width: 50%;
+    margin-bottom: 0;
+  }
+
+  .event-description {
+    margin-top: 0;
+    max-width: 40%;
+  }
+
+  .event-date {
+    font-size: 30px;
+    font-weight: bolder;
   }
 }
