@@ -391,7 +391,7 @@ body {
 
   #introduction {
     padding-left: 15%;
-    padding-top: 5%;
+    padding-top: 14%;
     padding-bottom: 5%;
   }
 
@@ -503,5 +503,13 @@ body {
     width: 500px;
     padding-top: 0;
     padding-bottom: 0;
+  }
+
+  .copyright {
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: auto;
+    justify-content: center;
   }
 }
