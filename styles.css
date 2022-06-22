@@ -316,7 +316,8 @@ body {
   nav {
     display: flex;
     flex-direction: column;
-    width: auto;
+    width: 100%;
+    position: fixed;
   }
 
   .navbar {
@@ -478,7 +479,29 @@ body {
     margin-left: 15%;
     margin-right: 15%;
     display: grid;
-    grid-template-columns: 50% 50%;
-    row-gap: 55px;
+    grid-template-columns: 50% 50%; 
+    row-gap: 0;
+  }
+
+  .character-sub-container {
+    padding: 20px;
+    width: auto;
+  }
+
+  .partners-title {
+    font-size: 25px;
+    margin-top: 55px;
+    margin-bottom: 15px;
+  }
+
+  .partners-container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 200px;
+    width: 500px;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 }
