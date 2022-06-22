@@ -206,8 +206,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 15px;
+  row-gap: 50px;
   padding-top: 35px;
+  margin-bottom: 50px;
 }
 
 .character-sub-container {
@@ -467,4 +468,17 @@ body {
     cursor: pointer;
   }
 
+  .character-title {
+    font-size: 25px;
+    margin-top: 55px;
+    margin-bottom: 15px;
+  }
+
+  .character-mini-container {
+    margin-left: 15%;
+    margin-right: 15%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    row-gap: 55px;
+  }
 }
