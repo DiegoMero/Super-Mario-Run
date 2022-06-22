@@ -282,3 +282,43 @@ body {
 .copyright-description {
   font-family: 'Lato', sans-serif;
 }
+
+@media only screen and (min-width: 768px) {
+
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+  .sub-navbar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 25px;
+    order: -1;
+    background-color: #272a31;
+    padding-left: 65%;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .menu-icon-placeholder {
+    display: none;
+  }
+
+  .facebook-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .twitter-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .subnavbar-text {
+    color: white;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+  }
+}

@@ -85,3 +85,34 @@ for (let i = 0; i < characters.length; i += 1) {
   characterDescription.innerText = characters[i].description;
   characterHighlights.appendChild(characterDescription);
 }
+
+const navbar = document.querySelector('nav');
+
+const subNavbar = document.createElement('div');
+subNavbar.classList = 'sub-navbar';
+navbar.appendChild(subNavbar);
+
+const facebookLogo = document.createElement('img');
+facebookLogo.classList = 'facebook-icon';
+facebookLogo.src = 'images/facebookIcon.png';
+subNavbar.appendChild(facebookLogo);
+
+const twitterLogo = document.createElement('img');
+twitterLogo.classList = 'twitter-icon';
+twitterLogo.src = 'images/twitterIcon.png';
+subNavbar.appendChild(twitterLogo);
+
+const english = document.createElement('h4');
+english.className = 'subnavbar-text';
+english.innerText = 'English';
+subNavbar.appendChild(english);
+
+const myPage = document.createElement('h4');
+myPage.className = 'subnavbar-text';
+myPage.innerText = 'My Page';
+subNavbar.appendChild(myPage);
+
+const logout = document.createElement('h4');
+logout.className = 'subnavbar-text';
+logout.innerText = 'Logout';
+subNavbar.appendChild(logout);
