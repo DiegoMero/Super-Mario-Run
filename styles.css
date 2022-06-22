@@ -270,3 +270,15 @@ body {
   width: 50%;
   height: 50%;
 }
+
+.copyright {
+  display: flex;
+  padding: 25px;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.copyright-description {
+  font-family: 'Lato', sans-serif;
+}
