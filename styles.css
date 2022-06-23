@@ -513,3 +513,55 @@ body {
     justify-content: center;
   }
 }
+
+/* about page */
+
+.about-page {
+  background: url(./images/BackgroundImage.jpg);
+  background-size: contain;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 35px;
+}
+
+.about-title {
+  font-family: 'COCOGOOSE', sans-serif;
+  font-weight: 400;
+  font-size: 37px;
+  color: #ec5242;
+  margin-top: 0;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-bottom: 0;
+}
+
+.divisor3 {
+  border: 1px solid #ec5242;
+  width: 30px;
+  margin-bottom: 25px;
+}
+
+.about-description {
+  font-family: 'Lato', sans-serif;
+  width: auto;
+  line-height: 30px;
+  background-color: whitesmoke;
+  color: #272a31;
+  padding: 15px;
+  margin: 10px;
+  border: #fff solid;
+}
+
+.contact-us {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+
+.fake-email {
+  font-family: 'Lato', sans-serif;
+  color: black;
+  font-weight: 700;
+}
