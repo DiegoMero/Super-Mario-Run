@@ -722,3 +722,46 @@ body {
     color: #d3d3d3;
   }
 }
+
+/* Menu popup button */
+.menu-attributes {
+  background-color: #d3d3d3;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  position: fixed;
+  padding: 25px;
+  top: 0;
+}
+
+.menu-xicon {
+  width: 25px;
+  height: 25px;
+
+}
+
+.menu-about {
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.menu-about:active {
+  color: #ec5242;
+}
+
+.menu-main-button {
+  display: flex;
+  width: auto;
+  margin-right: 15%;
+  box-sizing: border-box;
+  border: 5px solid #ec5242;
+  padding: 10px;
+  color:#ec5242;
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+  margin-right: auto;
+  font-size: 25px;
+}
