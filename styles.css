@@ -593,3 +593,55 @@ body {
   height: 200px;
   margin-bottom: 35px;
 }
+
+.divisor5 {
+  width: auto;
+  border: 1px solid #d3d3d3;
+}
+
+.past-events {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.past-events-title {
+  padding-top: 25px;
+  font-family: 'Lato', sans-serif;
+}
+
+.past-events-description {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 35px;
+}
+
+.past-events-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 25px;
+  margin-bottom: 35px;
+}
+
+.past-event1 {
+  content: url(./images/SuperMarioRunParis.jpg);
+  width: 90%;
+}
+
+.past-event2 {
+  content: url(./images/SuperMarioRunTokyo.jpg);
+  width: 90%;
+}
+
+.copyright2 {
+  background-color: #272a31;
+  display: flex;
+  padding: 25px;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
