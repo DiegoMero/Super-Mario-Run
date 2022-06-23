@@ -41,21 +41,19 @@ desktopNavbar.appendChild(about);
 const program = document.createElement('a');
 program.className = 'about-text';
 program.innerText = 'Program';
+program.href = '#main-program';
 desktopNavbar.appendChild(program);
-
-const join = document.createElement('a');
-join.className = 'about-text';
-join.innerText = 'Join';
-desktopNavbar.appendChild(join);
 
 const sponsor = document.createElement('a');
 sponsor.className = 'about-text';
 sponsor.innerText = 'Sponsor';
+sponsor.href = '#feature-characters';
 desktopNavbar.appendChild(sponsor);
 
 const news = document.createElement('a');
 news.className = 'about-text';
-news.innerText = 'News';
+news.innerText = 'Partner';
+news.href = '#partners';
 desktopNavbar.appendChild(news);
 
 const mainButton = document.createElement('a');

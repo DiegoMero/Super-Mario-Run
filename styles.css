@@ -12,12 +12,7 @@ body {
 }
 
 .logo-placeholder {
-  padding: 12px;
-}
-
-.my-logo {
-  content: url(./images/SuperMarioRunLogo.png);
-  height: 50px;
+  display: none;
 }
 
 .menu-icon-placeholder {
@@ -285,6 +280,11 @@ body {
   height: 50%;
 }
 
+.my-logo-footer {
+  content: url(./images/SuperMarioRunLogo.png);
+  height: 50px;
+}
+
 .copyright {
   display: flex;
   padding: 25px;
@@ -327,6 +327,18 @@ body {
     align-items: center;
   }
 
+  .logo-placeholder {
+    display: block;
+    padding: 12px;
+    padding-left: 15%;
+  }
+
+  .my-logo {
+    content: url(./images/SuperMarioRunLogo.png);
+    height: 50px;
+    padding-right: 100px;
+  }
+
   .sub-navbar {
     display: flex;
     flex-direction: row;
@@ -366,6 +378,7 @@ body {
     font-family: 'Lato', sans-serif;
     cursor: pointer;
     text-decoration: none;
+    color: black;
   }
 
   .about-text:hover {
@@ -394,14 +407,6 @@ body {
     font-family: 'Lato', sans-serif;
     cursor: pointer;
     text-decoration: none;
-  }
-
-  .my-logo {
-    padding-right: 100px;
-  }
-
-  .logo-placeholder {
-    padding-left: 15%;
   }
 
   #introduction {
@@ -601,6 +606,7 @@ body {
   text-align: center;
   margin-top: 0;
   margin-bottom: 35px;
+  padding: 10px;
 }
 
 .logo-about-page {
@@ -655,7 +661,7 @@ body {
 }
 
 .copyright2 {
-  background-color: #272a31;
+  background-color: white;
   display: flex;
   padding: 25px;
   justify-content: center;
@@ -665,7 +671,7 @@ body {
 
 .copyright-description2 {
   font-family: 'Lato', sans-serif;
-  color: #d3d3d3;
+  color: black;
 }
 
 @media only screen and (min-width: 768px) {
@@ -723,7 +729,6 @@ body {
 
   .copyright-description2 {
     font-family: 'Lato', sans-serif;
-    color: #d3d3d3;
   }
 }
 
@@ -731,7 +736,7 @@ body {
 .menu-attributes {
   background-color: #d3d3d3;
   width: 100%;
-  height: auto;
+  height: 100%;
   display: flex;
   flex-direction: column;
   row-gap: 15px;
@@ -749,6 +754,7 @@ body {
   font-family: 'Lato', sans-serif;
   text-decoration: none;
   font-size: 25px;
+  color: black;
 }
 
 .menu-about:active {
