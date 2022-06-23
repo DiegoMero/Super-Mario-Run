@@ -565,3 +565,31 @@ body {
   color: black;
   font-weight: 700;
 }
+
+.logo-section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-title {
+  padding-top: 25px;
+  font-family: 'Lato', sans-serif;
+}
+
+.logo-description {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 35px;
+}
+
+.logo-about-page {
+  border: 2px solid #dedede;
+  content: url(./images/SuperMarioRunLogo.png);
+  width: 90%;
+  height: 200px;
+  margin-bottom: 35px;
+}
