@@ -12,9 +12,9 @@ This webpage is to simulate a race in the Mario world.Choose your character, jum
  - Feel free to fork the repo!
 ## Authors:
 👤 **Diego Mero**
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/DiegoMero)
+- Twitter: [@twitterhandle](https://twitter.com/Dimero18)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/diego-mero-80b326225/)
 ## 🤝 Contributing:
  - Contributions, issues, and feature requests are welcome!
  - Feel free to check the issues page.
@@ -23,7 +23,7 @@ This webpage is to simulate a race in the Mario world.Choose your character, jum
 ## Acknowledgments:
  Thanks to microverse ⭐️.<br>
  This template was inspired by [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015),
- and is under [Creative Commons License](https://creativecommons.org/licenses/by-nc/4.0/)<br>
+ and is under [Creative Commons License](https://creativecommons.org/licenses/by-nc/4.0/).<br>
  Some icons used in this project were acquired at [Flaticon](https://www.flaticon.com/).<br>
 ## 📝 License:
  The characters, scenarios and universe used in this project are created by Nintendo.<br>
