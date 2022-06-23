@@ -14,6 +14,7 @@ body {
 .logo-placeholder {
   padding: 12px;
 }
+
 .my-logo {
   content: url(./images/SuperMarioRunLogo.png);
   height: 50px;
@@ -24,6 +25,7 @@ body {
   align-items: center;
   padding: 15px;
 }
+
 .menu-button {
   content: url(./images/menuIcon.png);
   width: 25px;
@@ -95,7 +97,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap:15px;
+  gap: 15px;
 }
 
 .divisor {
@@ -107,13 +109,13 @@ body {
   display: flex;
   flex-direction: column;
   padding: 10px;
-  gap:15px;
+  gap: 15px;
 }
 
 .activity {
   display: flex;
   flex-direction: row;
-  width: 94%; 
+  width: 94%;
   height: 100px;
   background: rgb(211, 211, 211, 0.1);
   padding: 10px;
@@ -167,7 +169,6 @@ body {
 .activity-title {
   color: #ec5242;
   font-family: 'Lato', sans-serif;
-  text-align: flex-start;
   flex-basis: 25%;
 }
 
@@ -180,7 +181,7 @@ body {
 }
 
 .join-button {
-  color:white;
+  color: white;
   font-family: 'Lato', sans-serif;
   background-color: #ec5242;
   border-style: none;
@@ -273,7 +274,7 @@ body {
 }
 
 .partner1 {
-  content: url(./images/PrincessPeach.png);
+  content: url(./images/PrincessPeach.jpg);
   width: 50%;
   height: 50%;
 }
@@ -325,7 +326,7 @@ body {
     flex-direction: row;
     align-items: center;
   }
-  
+
   .sub-navbar {
     display: flex;
     flex-direction: row;
@@ -368,7 +369,7 @@ body {
   }
 
   .about-text:hover {
-    color:#ec5242;
+    color: #ec5242;
   }
 
   .main-button {
@@ -377,7 +378,7 @@ body {
     box-sizing: border-box;
     border: 5px solid #ec5242;
     padding: 10px;
-    color:#ec5242;
+    color: #ec5242;
     font-family: 'Lato', sans-serif;
     cursor: pointer;
     text-decoration: none;
@@ -389,7 +390,7 @@ body {
     box-sizing: border-box;
     border: 5px solid #ec5242;
     padding: 10px;
-    background-color:rgb(236, 82, 66, 0.3);
+    background-color: rgb(236, 82, 66, 0.3);
     font-family: 'Lato', sans-serif;
     cursor: pointer;
     text-decoration: none;
@@ -464,10 +465,12 @@ body {
   .activity-title {
     flex-basis: 10%;
   }
+
   .activity-description {
     text-align: center;
     margin-top: 0;
   }
+
   .join-button {
     display: none;
   }
@@ -476,7 +479,7 @@ body {
     display: block;
     text-decoration: underline;
     font-family: 'Lato', sans-serif;
-    color:#d3d3d3;
+    color: #d3d3d3;
     font-size: 15px;
     margin-top: 50px;
     margin-bottom: 75px;
@@ -493,7 +496,7 @@ body {
     margin-left: 15%;
     margin-right: 15%;
     display: grid;
-    grid-template-columns: 50% 50%; 
+    grid-template-columns: 50% 50%;
     row-gap: 0;
   }
 
@@ -672,6 +675,7 @@ body {
     padding-right: 25%;
     padding-bottom: 100px;
   }
+
   .about-title {
     font-family: 'COCOGOOSE', sans-serif;
     font-weight: 400;
@@ -711,7 +715,7 @@ body {
   .past-event1 {
     width: auto;
   }
-  
+
   .past-event2 {
     content: url(./images/SuperMarioRunTokyo.jpg);
     width: auto;
@@ -739,7 +743,6 @@ body {
 .menu-xicon {
   width: 25px;
   height: 25px;
-
 }
 
 .menu-about {
@@ -755,11 +758,10 @@ body {
 .menu-main-button {
   display: flex;
   width: auto;
-  margin-right: 15%;
   box-sizing: border-box;
   border: 5px solid #ec5242;
   padding: 10px;
-  color:#ec5242;
+  color: #ec5242;
   font-family: 'Lato', sans-serif;
   text-decoration: none;
   margin-right: auto;
