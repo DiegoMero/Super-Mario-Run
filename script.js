@@ -34,6 +34,7 @@ navbar.appendChild(desktopNavbar);
 
 const about = document.createElement('a');
 about.className = 'about-text';
+about.href = 'about.html';
 about.innerText = 'About';
 desktopNavbar.appendChild(about);
 
@@ -60,6 +61,7 @@ desktopNavbar.appendChild(news);
 const mainButton = document.createElement('a');
 mainButton.className = 'main-button';
 mainButton.innerText = 'MARIO RUN 2022';
+mainButton.href = 'index.html';
 desktopNavbar.appendChild(mainButton);
 
 const characters = [

@@ -364,6 +364,7 @@ body {
     font-size: 16.5px;
     font-family: 'Lato', sans-serif;
     cursor: pointer;
+    text-decoration: none;
   }
 
   .about-text:hover {
@@ -378,7 +379,20 @@ body {
     padding: 10px;
     color:#ec5242;
     font-family: 'Lato', sans-serif;
-    cursor:pointer;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .main-button:hover {
+    display: flex;
+    margin-right: 15%;
+    box-sizing: border-box;
+    border: 5px solid #ec5242;
+    padding: 10px;
+    background-color:rgb(236, 82, 66, 0.3);
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+    text-decoration: none;
   }
 
   .my-logo {
