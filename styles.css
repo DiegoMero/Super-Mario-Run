@@ -567,7 +567,7 @@ body {
 }
 
 .logo-section {
-  width: 100%;
+  width: auto;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -600,7 +600,7 @@ body {
 }
 
 .past-events {
-  width: 100%;
+  width: auto;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -644,4 +644,67 @@ body {
   justify-content: center;
   align-items: center;
   gap: 15px;
+}
+
+.copyright-description2 {
+  font-family: 'Lato', sans-serif;
+  color: #d3d3d3;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-page {
+    padding-top: 200px;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 100px;
+  }
+  .about-title {
+    font-family: 'COCOGOOSE', sans-serif;
+    font-weight: 400;
+    font-size: 37px;
+    color: #ec5242;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-bottom: 0;
+  }
+
+  .logo-section {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+
+  .logo-about-page {
+    border: 2px solid #dedede;
+    content: url(./images/SuperMarioRunLogo.png);
+    width: 70%;
+    height: auto;
+    margin-bottom: 35px;
+  }
+
+  .past-events-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 35px;
+    column-gap: 25px;
+  }
+
+  .past-events {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+
+  .past-event1 {
+    width: auto;
+  }
+  
+  .past-event2 {
+    content: url(./images/SuperMarioRunTokyo.jpg);
+    width: auto;
+  }
+
+  .copyright-description2 {
+    font-family: 'Lato', sans-serif;
+    color: #d3d3d3;
+  }
 }
