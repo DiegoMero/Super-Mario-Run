@@ -1,0 +1,775 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  height: 75px;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.logo-placeholder {
+  display: none;
+}
+
+.menu-icon-placeholder {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+
+.menu-button {
+  content: url(./images/menuIcon.png);
+  width: 25px;
+  height: 25px;
+}
+
+#introduction {
+  background: url(./images/BackgroundImage.jpg);
+  background-size: contain;
+  width: auto;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mini-title {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  color: #ec5242;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 10px;
+  padding-top: 15px;
+}
+
+.title {
+  font-family: 'COCOGOOSE', sans-serif;
+  font-weight: 400;
+  font-size: 37px;
+  color: #ec5242;
+  margin-top: 0;
+  padding-top: 0;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.event-description {
+  font-family: 'Lato', sans-serif;
+  width: auto;
+  line-height: 25px;
+  background-color: whitesmoke;
+  color: #272a31;
+  padding: 15px;
+  margin: 10px;
+  border: #fff solid;
+}
+
+.event-date {
+  font-family: 'COCOGOOSE', sans-serif;
+  font-weight: 300;
+  color: #272a31;
+  margin-left: 10px;
+  margin-bottom: 0;
+}
+
+.event-place {
+  font-family: 'Lato', sans-serif;
+  margin-left: 10px;
+  color: #272a31;
+  margin-top: 3px;
+}
+
+#main-program {
+  width: 100%;
+  height: auto;
+  background: url(./images/patternBackground.png);
+  background-color: #272a31;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.divisor {
+  border: 1px solid #ec5242;
+  width: 30px;
+}
+
+.activities {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 15px;
+}
+
+.activity {
+  display: flex;
+  flex-direction: row;
+  width: 94%;
+  height: 100px;
+  background: rgb(211, 211, 211, 0.1);
+  padding: 10px;
+  align-items: center;
+  gap: 15px;
+  justify-content: space-between;
+}
+
+.activity-icon1 {
+  content: url(./images/PowerUpsIcon.png);
+  max-width: 60px;
+  max-height: 60px;
+  flex-basis: 25%;
+}
+
+.activity-icon2 {
+  content: url(./images/BlockIcon.png);
+  max-width: 60px;
+  max-height: 60px;
+  flex-basis: 25%;
+}
+
+.activity-icon3 {
+  content: url(./images/EnemyIcon.png);
+  max-width: 60px;
+  max-height: 60px;
+  flex-basis: 25%;
+}
+
+.activity-icon4 {
+  content: url(./images/LevelsIcon.png);
+  max-width: 60px;
+  max-height: 60px;
+  flex-basis: 25%;
+}
+
+.activity-icon5 {
+  content: url(./images/BowserIcon2.png);
+  max-width: 60px;
+  max-height: 60px;
+  flex-basis: 25%;
+}
+
+.program-tittle {
+  color: #d3d3d3;
+  margin-bottom: 5px;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2em;
+}
+
+.activity-title {
+  color: #ec5242;
+  font-family: 'Lato', sans-serif;
+  flex-basis: 25%;
+}
+
+.activity-description {
+  color: #d3d3d3;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  flex-basis: 50%;
+}
+
+.join-button {
+  color: white;
+  font-family: 'Lato', sans-serif;
+  background-color: #ec5242;
+  border-style: none;
+  width: 300px;
+  height: 70px;
+  margin-bottom: 35px;
+  font-size: 18px;
+}
+
+.characters {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.character-title {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.character-mini-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 50px;
+  padding-top: 35px;
+  margin-bottom: 50px;
+}
+
+.character-sub-container {
+  display: flex;
+  width: 85%;
+  align-items: flex-start;
+}
+
+.character-pic {
+  width: 30%;
+  height: 30%;
+}
+
+.character-name {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.4em;
+  margin: 0;
+}
+
+.character-occupation {
+  font-family: 'Lato', sans-serif;
+  color: #ec5242;
+  margin-top: 0;
+  font-style: italic;
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+
+.divisor2 {
+  border: 1px solid #d3d3d3;
+  width: 15px;
+}
+
+.character-description {
+  font-family: 'Lato', sans-serif;
+  color: #272a31;
+  margin-top: 12px;
+}
+
+#partners {
+  background-color: #272a31;
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.partners-title {
+  color: #d3d3d3;
+  margin-bottom: 5px;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2em;
+}
+
+.partners-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+  gap: 25px;
+}
+
+.partner1 {
+  content: url(./images/PrincessPeach.jpg);
+  width: 50%;
+  height: 50%;
+}
+
+.partner2 {
+  content: url(./images/Dr_Mario_logo.png);
+  width: 50%;
+  height: 50%;
+}
+
+.my-logo-footer {
+  content: url(./images/SuperMarioRunLogo.png);
+  height: 50px;
+}
+
+.copyright {
+  display: flex;
+  padding: 25px;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.copyright-description {
+  font-family: 'Lato', sans-serif;
+}
+
+.sub-navbar {
+  display: none;
+}
+
+.about-text {
+  display: none;
+}
+
+.main-button {
+  display: none;
+}
+
+.see-program-text {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: fixed;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .logo-placeholder {
+    display: block;
+    padding: 12px;
+    padding-left: 15%;
+  }
+
+  .my-logo {
+    content: url(./images/SuperMarioRunLogo.png);
+    height: 50px;
+    padding-right: 100px;
+  }
+
+  .sub-navbar {
+    display: flex;
+    flex-direction: row;
+    height: 25px;
+    order: -1;
+    background-color: #272a31;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 15%;
+  }
+
+  .menu-icon-placeholder {
+    display: none;
+  }
+
+  .facebook-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .twitter-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .subnavbar-text {
+    color: white;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+  }
+
+  .about-text {
+    display: flex;
+    font-size: 16.5px;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+  }
+
+  .about-text:hover {
+    color: #ec5242;
+  }
+
+  .main-button {
+    display: flex;
+    margin-right: 15%;
+    box-sizing: border-box;
+    border: 5px solid #ec5242;
+    padding: 10px;
+    color: #ec5242;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .main-button:hover {
+    display: flex;
+    margin-right: 15%;
+    box-sizing: border-box;
+    border: 5px solid #ec5242;
+    padding: 10px;
+    background-color: rgb(236, 82, 66, 0.3);
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  #introduction {
+    padding-left: 15%;
+    padding-top: 14%;
+    padding-bottom: 5%;
+  }
+
+  .mini-title {
+    font-size: 35px;
+    font-weight: 100;
+  }
+
+  .title {
+    font-size: 55px;
+    max-width: 50%;
+    margin-bottom: 0;
+  }
+
+  .event-description {
+    margin-top: 0;
+    max-width: 40%;
+  }
+
+  .event-date {
+    font-size: 30px;
+    font-weight: bolder;
+  }
+
+  #main-prgram {
+    padding-top: 5%;
+    height: auto;
+    padding-bottom: 10%;
+  }
+
+  .program-tittle {
+    margin-top: 75px;
+    font-size: 25px;
+  }
+
+  .activities {
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+    margin-right: 15%;
+    gap: 5px;
+  }
+
+  .activity {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    gap: 0;
+    border: 2px solid transparent;
+  }
+
+  .activity:hover {
+    border: 2px solid white;
+  }
+
+  .activity-title {
+    flex-basis: 10%;
+  }
+
+  .activity-description {
+    text-align: center;
+    margin-top: 0;
+  }
+
+  .join-button {
+    display: none;
+  }
+
+  .see-program-text {
+    display: block;
+    text-decoration: underline;
+    font-family: 'Lato', sans-serif;
+    color: #d3d3d3;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-bottom: 75px;
+    cursor: pointer;
+  }
+
+  .character-title {
+    font-size: 25px;
+    margin-top: 55px;
+    margin-bottom: 15px;
+  }
+
+  .character-mini-container {
+    margin-left: 15%;
+    margin-right: 15%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    row-gap: 0;
+  }
+
+  .character-sub-container {
+    padding: 20px;
+    width: auto;
+  }
+
+  .partners-title {
+    font-size: 25px;
+    margin-top: 55px;
+    margin-bottom: 15px;
+  }
+
+  .partners-container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 200px;
+    width: 500px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .copyright {
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: auto;
+    justify-content: center;
+  }
+}
+
+/* about page */
+
+.about-page {
+  background: url(./images/BackgroundImage.jpg);
+  background-size: contain;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 35px;
+}
+
+.about-title {
+  font-family: 'COCOGOOSE', sans-serif;
+  font-weight: 400;
+  font-size: 37px;
+  color: #ec5242;
+  margin-top: 0;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-bottom: 0;
+}
+
+.divisor3 {
+  border: 1px solid #ec5242;
+  width: 30px;
+  margin-bottom: 25px;
+}
+
+.about-description {
+  font-family: 'Lato', sans-serif;
+  width: auto;
+  line-height: 30px;
+  background-color: whitesmoke;
+  color: #272a31;
+  padding: 15px;
+  margin: 10px;
+  border: #fff solid;
+}
+
+.contact-us {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+
+.fake-email {
+  font-family: 'Lato', sans-serif;
+  color: black;
+  font-weight: 700;
+}
+
+.logo-section {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-title {
+  padding-top: 25px;
+  font-family: 'Lato', sans-serif;
+}
+
+.logo-description {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 35px;
+  padding: 10px;
+}
+
+.logo-about-page {
+  border: 2px solid #dedede;
+  content: url(./images/SuperMarioRunLogo.png);
+  width: 90%;
+  height: 200px;
+  margin-bottom: 35px;
+}
+
+.divisor5 {
+  width: auto;
+  border: 1px solid #d3d3d3;
+}
+
+.past-events {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.past-events-title {
+  padding-top: 25px;
+  font-family: 'Lato', sans-serif;
+}
+
+.past-events-description {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 35px;
+}
+
+.past-events-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 25px;
+  margin-bottom: 35px;
+}
+
+.past-event1 {
+  content: url(./images/SuperMarioRunParis.jpg);
+  width: 90%;
+}
+
+.past-event2 {
+  content: url(./images/SuperMarioRunTokyo.jpg);
+  width: 90%;
+}
+
+.copyright2 {
+  background-color: white;
+  display: flex;
+  padding: 25px;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.copyright-description2 {
+  font-family: 'Lato', sans-serif;
+  color: black;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-page {
+    padding-top: 200px;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 100px;
+  }
+
+  .about-title {
+    font-family: 'COCOGOOSE', sans-serif;
+    font-weight: 400;
+    font-size: 37px;
+    color: #ec5242;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-bottom: 0;
+  }
+
+  .logo-section {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+
+  .logo-about-page {
+    border: 2px solid #dedede;
+    content: url(./images/SuperMarioRunLogo.png);
+    width: 70%;
+    height: auto;
+    margin-bottom: 35px;
+  }
+
+  .past-events-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 35px;
+    column-gap: 25px;
+  }
+
+  .past-events {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+
+  .past-event1 {
+    width: auto;
+  }
+
+  .past-event2 {
+    content: url(./images/SuperMarioRunTokyo.jpg);
+    width: auto;
+  }
+
+  .copyright-description2 {
+    font-family: 'Lato', sans-serif;
+  }
+}
+
+/* Menu popup button */
+.menu-attributes {
+  background-color: #d3d3d3;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  position: fixed;
+  padding: 25px;
+  top: 0;
+}
+
+.menu-xicon {
+  width: 25px;
+  height: 25px;
+}
+
+.menu-about {
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+}
+
+.menu-about:active {
+  color: #ec5242;
+}
+
+.menu-main-button {
+  display: flex;
+  width: auto;
+  box-sizing: border-box;
+  border: 5px solid #ec5242;
+  padding: 10px;
+  color: #ec5242;
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+  margin-right: auto;
+  font-size: 25px;
+}
